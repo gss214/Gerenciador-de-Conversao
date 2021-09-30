@@ -17,7 +17,7 @@ if __name__ == "__main__":
     print(path)
     imgNames = os.listdir(path)
     for imgNames in imgNames:
-        if imgNames[-1] == 'p':
+        if imgNames[-4:] == '.bmp':
             imgNamesStrip = imgNames.replace(' ','')
             os.rename(imgNames, imgNamesStrip)
             imgNamesStrip = imgNamesStrip[:-4]
