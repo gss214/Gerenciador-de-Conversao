@@ -17,10 +17,10 @@ if __name__ == "__main__":
     print(path)
     imgNames = os.listdir(path)
     for imgNames in imgNames:
-        if imgNames[-1] == 'p':
+        if imgNames[-1:-4] == '.bmp':
             imgNamesStrip = imgNames.replace(' ','')
             os.rename(imgNames, imgNamesStrip)
-            imgNamesStrip = imgNamesStrip[:-4]
+            imgNamesStrip = imgNamesStrip[-4:]
             if op == 1:
                 x = 'bmp2isc.exe'
             if op == 2:
