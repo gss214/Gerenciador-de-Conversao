@@ -11,4 +11,4 @@
 
 4 - Vá na pasta imagens/imagens_convertidas e pegue suas imagens convertidas.
 
-Existe também um [tutorial explicando como utilizar esse gerenciador]((https://youtu.be/tx9t2hGWWko?si=VUKSlHavF1SER7I_)https://youtu.be/tx9t2hGWWko?si=VUKSlHavF1SER7I_).
+Existe também um [tutorial explicando como utilizar esse gerenciador](https://youtu.be/tx9t2hGWWko?si=VUKSlHavF1SER7I_).
